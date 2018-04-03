@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+body {
+	background-color: #444;
+	border-style: solid;
+	border-color: 3px;
+	border-color: #777;
+	color: white;
+	margin: 50px;
+	padding: 50px;
+	width: 720px;
+	height: auto;
+	align-content: center;
+}
+
+
+.bookend-title {
+	text-decoration: none;
+	text-align: center;
+	font-size: 40px;
+	padding: 10;
+	margin: 10;
+}
+
+.bookend-titles {
+	text-decoration: none;
+	text-align: flex-start;
+	font-size: 25px;
+	font-family: Helvetica;
+	padding: 10;
+	margin: 10;
+}
+
+a {
+	text-align: center;
+	margin: 20px;
+	text-decoration: none;
+	text-decoration-color: rgba(84,196,192,1.00);
+	font-size: 16px;	
+}
+
+p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.nav {
+	align-content: center;
+	text-align: center;
+}
+
+.bookend {
+	align-content: center;
+}
+
+.nav-link {
+	color: rgba(84,196,192,1.00);
+	font-family: Helvetica;
+	padding: 0px;
+	border-rigjht: 1px solid #777;
+	align-content: center;
+	border-right: 2px solid #777;
+}
+
+.nav-link:after {
+	content: "";
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.bookend-top-border {
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+	padding: 10;
+	margin: 10;
+}
+
+img {
+	float: right;
+	align-content: flex-end;
+	flex-wrap: wrap;
+	display: flex;
+	padding: 10px;
+	margin: 10px;
+}
